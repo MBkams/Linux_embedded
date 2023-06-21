@@ -15,12 +15,27 @@ Répartition conseillée des 12 h:
 ## Prise en main
 
 ### Préparation de la carte SD
-Avant de commencer, il faut flasher la carte SD de la carte VEEK-MT2S avec l’image fournie par Terasic sous Linux.
-
-
-
+Sous Windows, à l'aide de l'outil Win32DiskImager, on flashe la carte SD avec l'image fournie par Terasic.
+Une fois flashé, on insére la carte SD sur la carte VEEK-MT2S afin de communiquer en liaison série.
 
 ### Utilisez un logiciel de liaison série
+
+Pour la suite du TP, j'utilise l'émulateur Tera term.
+Après s'être connecter en port série et démarrer la carte , on oberve la séquence de démarage de l'os sur le terminal.
+On se identifie avec : 
+- login : root
+- password : aucun (tapre sur la touche Entrée)
+
+Puis, on va agrandir le volume de la carte SD avec la commande suivante : 
+***
+./expand_rootfs.sh
+***
+Et une fois rebooté et loggez : 
+***
+./resize2fs_once
+***
+
+
 
 Avant l'agrandissemnt du volume :
 
