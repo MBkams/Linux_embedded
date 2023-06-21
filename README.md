@@ -35,10 +35,16 @@ Et une fois rebooté et loggez :
 ./resize2fs_once
 ***
 
+Avant l'augmentation du volume :
 
-
-Avant l'agrandissemnt du volume :
+![Carte_SD_before_volume](https://github.com/MBkams/Linux_embedded/assets/105196572/3d7ac45f-84e6-4e96-86d0-fd810a660543)
 
 Après l'augmentation du volume :
+
+![Carte_SD_volume](https://github.com/MBkams/Linux_embedded/assets/105196572/c10b3e7b-f1df-4f87-b3ec-595b507b8258)
+
+On oberseve que nous avons bien augmenté le volume de la carte à 16GB.
+
+
 
 scp src/Linuxroot@192.168.88.95:~/src/Linux_embedded
