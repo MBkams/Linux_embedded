@@ -60,8 +60,16 @@ iface eth0 inet dhcp
 allow-hotplug eth0  
 ***
 
-On reboot la machine et une nouvelle adreese IP sera attribué.
+On reboot la machine et une nouvelle adreese IP sera attribué.  
+
 ![ip_adress](https://github.com/MBkams/Linux_embedded/assets/105196572/9e64eb3c-fd2b-4235-91d3-f3b7d02758e2)
+
+On se connecte en ssh par la suite :
+
+![Connexion_via_ssh](https://github.com/MBkams/Linux_embedded/assets/105196572/70b5cc84-6579-48f9-b8d2-b2a3d964a0fb)
+
+Pour établir la connection, on oublie pas de connecter l'ordinateur dans le même sous-réseau.
+
 
 
 scp src/Linuxroot@192.168.88.95:~/src/Linux_embedded
