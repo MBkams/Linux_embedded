@@ -53,8 +53,6 @@ Après avoir branché la carte VEEK sur le switch, on vérifie si on dispose d'u
 Puis, on va attribuer automatiquement une nouvelle adresse IP en éditant le fichier /etc/network/interfaces avec les lignes suivantes : 
 
 ***
-# interfaces(5) file used by ifup(8) and ifdown(8)
-# Include files from /etc/network/interfaces.d:
 source-directory /etc/network/interfaces.d
 auto eth0
 iface eth0 inet dhcp
