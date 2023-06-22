@@ -97,7 +97,7 @@ Par exmample,
 echo "1" > /sys/class/leds/fpga_led1/brightness
 ***
 
-On écrit par la suite un programme afin de réaliser un jeu de lumière.
+On écrit par la suite un programme afin de réaliser un jeu de lumière.  
 ![Chenillard](https://github.com/MBkams/Linux_embedded/assets/105196572/1824e710-aa77-4a34-b9b6-081154fd1485)
 
 
