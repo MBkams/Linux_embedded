@@ -45,6 +45,12 @@ Après l'augmentation du volume :
 
 On oberseve que nous avons bien augmenté le volume de la carte à 16GB.
 
+### Configuration réseau
+
+Après avoir branché la carte VEEK sur le switch, on vérifie si on dispose d'une adresse IP.
+
+
+![old_ip_adress](https://github.com/MBkams/Linux_embedded/assets/105196572/e4caecc6-9e7f-4fd8-9dd9-b9a2f9d76344)
 
 
 scp src/Linuxroot@192.168.88.95:~/src/Linux_embedded
