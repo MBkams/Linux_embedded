@@ -70,6 +70,10 @@ On se connecte en ssh par la suite :
 
 Pour établir la connection, on oublie pas de connecter l'ordinateur dans le même sous-réseau.
 
+### Découverte de la cible
+
+#### Exploration des dossiers /sys/class et /proc
+
 
 
 scp src/Linuxroot@192.168.88.95:~/src/Linux_embedded
