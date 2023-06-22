@@ -48,9 +48,21 @@ On oberseve que nous avons bien augmenté le volume de la carte à 16GB.
 ### Configuration réseau
 
 Après avoir branché la carte VEEK sur le switch, on vérifie si on dispose d'une adresse IP.
-
-
 ![old_ip_adress](https://github.com/MBkams/Linux_embedded/assets/105196572/e4caecc6-9e7f-4fd8-9dd9-b9a2f9d76344)
+
+Puis, on va attribuer automatiquement une nouvelle adresse IP en éditant le fichier /etc/network/interfaces avec les lignes suivantes : 
+
+***
+# interfaces(5) file used by ifup(8) and ifdown(8)
+# Include files from /etc/network/interfaces.d:
+source-directory /etc/network/interfaces.d
+auto eth0
+iface eth0 inet dhcp
+allow-hotplug eth0
+***
+
+
+![ip_adress](https://github.com/MBkams/Linux_embedded/assets/105196572/9e64eb3c-fd2b-4235-91d3-f3b7d02758e2)
 
 
 scp src/Linuxroot@192.168.88.95:~/src/Linux_embedded
