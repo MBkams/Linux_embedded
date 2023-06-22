@@ -60,7 +60,7 @@ iface eth0 inet dhcp
 allow-hotplug eth0  
 ***
 
-
+On reboot la machine et une nouvelle adreese IP sera attribué.
 ![ip_adress](https://github.com/MBkams/Linux_embedded/assets/105196572/9e64eb3c-fd2b-4235-91d3-f3b7d02758e2)
 
 
