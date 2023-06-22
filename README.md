@@ -68,12 +68,27 @@ On se connecte en ssh par la suite :
 
 ![Connexion_via_ssh](https://github.com/MBkams/Linux_embedded/assets/105196572/70b5cc84-6579-48f9-b8d2-b2a3d964a0fb)
 
-Pour établir la connection, on oublie pas de connecter l'ordinateur dans le même sous-réseau.
+Pour établir la connection, on oublie pas de connecter l'ordinateur dans le même sous-réseau wifi.
 
 ### Découverte de la cible
 
 #### Exploration des dossiers /sys/class et /proc
 
+On oberve les informations du CPU.
+![cpu_info](https://github.com/MBkams/Linux_embedded/assets/105196572/f8b74caf-0a58-47b4-9ea7-aa6f6d856708)
 
+Et on retrouve l'aborlescence des périphériques et leurs adresses.
+![file_sys_class](https://github.com/MBkams/Linux_embedded/assets/105196572/91930f66-f96c-4ce4-b8f3-d0a2c971c497)
 
-scp src/Linuxroot@192.168.88.95:~/src/Linux_embedded
+![sopc](https://github.com/MBkams/Linux_embedded/assets/105196572/0db3c50b-a30d-40b0-a7b4-57442e9ccf09)
+
+#### Hello World !
+
+On va réaliser un programme Hello World, compiler sur VM et executer sur la carte.
+
+![Hello_World](https://github.com/MBkams/Linux_embedded/assets/105196572/3179e6f6-7c72-4e53-9cb2-2116b468d9e8)
+
+#### Chenillard
+
+On va accéder au driver afin d'allumer les leds.
+https://github.com/MBkams/Linux_embedded/blob/main/img/Chenillard.png
