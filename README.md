@@ -86,10 +86,11 @@ Et on retrouve l'aborlescence des périphériques et leurs adresses.
 
 On va réaliser un programme Hello World, compiler sur VM et executer sur la carte.
 
-
-***
+https://github.com/MBkams/Linux_embedded/blame/2b75e9046c46ef3dac6879930a789f455f7b30f3/hello.c#L1
 
 ![Hello_World](https://github.com/MBkams/Linux_embedded/assets/105196572/3179e6f6-7c72-4e53-9cb2-2116b468d9e8)
+
+Le programme s'est bien executé.  
 
 #### Chenillard
 
@@ -104,7 +105,7 @@ On écrit par la suite un programme afin de réaliser un jeu de lumière.
 
 https://github.com/MBkams/Linux_embedded/blame/a69ce25d7511a97f11050c5d4a0a2b85ebc9488f/chenillard.c#L1
 
-Après exécution du fichier object sur la carte : 
+Après exécution du fichier object sur la carte :  
 ![Chenillard](https://github.com/MBkams/Linux_embedded/assets/105196572/1824e710-aa77-4a34-b9b6-081154fd1485)
 
 On oberve un chenillard comme décrit dans le programme.
