@@ -92,7 +92,7 @@ https://github.com/MBkams/Linux_embedded/blame/2b75e9046c46ef3dac6879930a789f455
 
 Le programme s'est bien executé.  
 
-#### Chenillard
+#### Chenillard (Et oui, encore !)
 
 On va accéder au driver afin d'allumer les leds. Il suffit d'écrire un '1' dans le bon fichier.
 Par exmemple,
@@ -111,6 +111,16 @@ Après exécution du fichier object sur la carte :
 On oberve un chenillard comme décrit dans le programme.
 
 ## Modules kernel
+
+### Compilation de module noyau sur la VM
+
+Pour ce TP, nous allons développer nos propres modules noyau. Nous allez avoir besoin des sources du noyau cible (en fait en théorie il faut seulement les includes). Il nous faut les sources exactes du noyau sur lequel le module va être
+chargé. 
+
+À partir du Makefile et du fichier source hello.c, on va compiler un premier module.
+
+- Utilisation de paramètres au chargment du module
+
 
 
 
