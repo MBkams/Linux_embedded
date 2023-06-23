@@ -91,7 +91,7 @@ On va réaliser un programme Hello World, compiler sur VM et executer sur la car
 #### Chenillard
 
 On va accéder au driver afin d'allumer les leds. Il suffit d'écrire un '1' dans le bon fichier.
-Par exmample,
+Par exmemple,
 
 ***
 echo "1" > /sys/class/leds/fpga_led1/brightness
