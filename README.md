@@ -122,5 +122,12 @@ chargé.
 - Utilisation de paramètres au chargment du module
 
 
+- Création d’un entrée dans /proc
 
+![module_proc](https://github.com/MBkams/Linux_embedded/assets/105196572/60bf5aad-390d-4a65-aabe-2b51fa4220a9)
+
+
+- Utilisation d’un timer
+- 
+![module_timer](https://github.com/MBkams/Linux_embedded/assets/105196572/8109fccc-a2d3-4a7a-b3c2-68d930274d53)
 
