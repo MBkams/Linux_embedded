@@ -86,6 +86,9 @@ Et on retrouve l'aborlescence des périphériques et leurs adresses.
 
 On va réaliser un programme Hello World, compiler sur VM et executer sur la carte.
 
+
+***
+
 ![Hello_World](https://github.com/MBkams/Linux_embedded/assets/105196572/3179e6f6-7c72-4e53-9cb2-2116b468d9e8)
 
 #### Chenillard
@@ -98,8 +101,13 @@ echo "1" > /sys/class/leds/fpga_led1/brightness
 ***
 
 On écrit par la suite un programme afin de réaliser un jeu de lumière.  
+
+https://github.com/MBkams/Linux_embedded/blame/a69ce25d7511a97f11050c5d4a0a2b85ebc9488f/chenillard.c#L1
+
 ![Chenillard](https://github.com/MBkams/Linux_embedded/assets/105196572/1824e710-aa77-4a34-b9b6-081154fd1485)
 
+
+## Modules kernel
 
 
 
