@@ -104,8 +104,10 @@ On écrit par la suite un programme afin de réaliser un jeu de lumière.
 
 https://github.com/MBkams/Linux_embedded/blame/a69ce25d7511a97f11050c5d4a0a2b85ebc9488f/chenillard.c#L1
 
+Après exécution du fichier object sur la carte : 
 ![Chenillard](https://github.com/MBkams/Linux_embedded/assets/105196572/1824e710-aa77-4a34-b9b6-081154fd1485)
 
+On oberve un chenillard comme décrit dans le programme.
 
 ## Modules kernel
 
