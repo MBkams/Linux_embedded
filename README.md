@@ -134,3 +134,27 @@ https://github.com/MBkams/Linux_embedded/blob/2c512b4ba51c60fe7b31a8d704a69c125a
  
 ![module_timer](https://github.com/MBkams/Linux_embedded/assets/105196572/8109fccc-a2d3-4a7a-b3c2-68d930274d53)
 
+### CrossCompilation de modules noyau
+
+À cause de la puissance limitée du processeur de la carte cible, la compilation, en particulier la compilation de modules noyau, est relativement longue. Nous allons donc, une fois encore, cross-compiler les modules noyau pour la carte SoC, à l’aide de la VM.
+
+Nous allons recompiler les fichiers modules sur la VM et executé sur la carte.
+
+#### Récupéreation de la configuration actuelle du noyau
+
+- Les lignes commençant par "export" sont utilisées pour définir des variables d'environnement
+- Le chemin qui termine par un tiret "-" est utilisé pour indiquer à make qu'il doit rechercher les outils de compilation dans les répertoires du PATH
+
+On observe que les modules ont bien "cross-compilés" sur la carte.
+
+#### Chenillard (Yes !)
+
+Début d'implémentation
+
+https://github.com/MBkams/Linux_embedded/blame/ab80039854fdb4dd1c786d5754555df4427999fd/Module/led_timer.c#L1
+
+
+# Conclusion
+
+Grâce à ce mini-projet, j'ai pu  approfondir mes connaissances en noyau linux sur une cible embarqué plus généralement. 
+Bien que l'implémentation des premiers modules donne des résultats plutôt satisfaisants indépendamment, il reste un certain sentiment de regret quant à l’impossibilité de mener véritablement ce projet à son terme par moi-même. Notamment sur la création de son propore module et périphérique.
