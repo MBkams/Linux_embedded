@@ -129,6 +129,7 @@ https://github.com/MBkams/Linux_embedded/blame/d270774954c66fd99242e95470f95a3a4
 
 
 - Utilisation d’un timer
+https://github.com/MBkams/Linux_embedded/blob/2c512b4ba51c60fe7b31a8d704a69c125a9b8f3a/Module/timer.c#L1
  
 ![module_timer](https://github.com/MBkams/Linux_embedded/assets/105196572/8109fccc-a2d3-4a7a-b3c2-68d930274d53)
 
