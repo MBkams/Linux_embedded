@@ -117,17 +117,18 @@ On oberve un chenillard comme décrit dans le programme.
 Pour ce TP, nous allons développer nos propres modules noyau. Nous allez avoir besoin des sources du noyau cible (en fait en théorie il faut seulement les includes). Il nous faut les sources exactes du noyau sur lequel le module va être
 chargé. 
 
-À partir du Makefile et du fichier source hello.c, on va compiler un premier module.
+À partir du Makefile et des fichiers .c, on va compiler les modules suivants avec les commandes modinfo, lsmod, insmod et rmmod.
 
-- Utilisation de paramètres au chargment du module
+- Utilisation de paramètres au chargement du module  
+https://github.com/MBkams/Linux_embedded/blame/d270774954c66fd99242e95470f95a3a4ab4a8a9/Module/hello.c#L1
 
-
-- Création d’un entrée dans /proc
+- Création d’un entrée dans /proc  
+https://github.com/MBkams/Linux_embedded/blame/d270774954c66fd99242e95470f95a3a4ab4a8a9/Module/proc.c#L1
 
 ![module_proc](https://github.com/MBkams/Linux_embedded/assets/105196572/60bf5aad-390d-4a65-aabe-2b51fa4220a9)
 
 
 - Utilisation d’un timer
-- 
+ 
 ![module_timer](https://github.com/MBkams/Linux_embedded/assets/105196572/8109fccc-a2d3-4a7a-b3c2-68d930274d53)
 
